@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Галерея Персонажей - Star Wars</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">Star Wars Archive</div>
+      <nav class="navigation">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="gallery.html" class="nav-link active">Галерея</a>
+        <a href="contacts.html" class="nav-link">Контакты</a>
+      </nav>
+    </header>
+
+    <main class="container-main">
+      <section class="gallery-intro">
+        <h1>Галерея Великой Галактики</h1>
+        <p>Общее количество экспонатов: <span id="total-items">6</span></p>
+      </section>
+
+      <div class="grid-gallery">
+        <div class="card">
+          <img
+            src="assets/images/luke.jpg"
+            alt="Люк Скайуокер"
+            class="card-img"
+          />
+          <div class="card-body">
+            <h3>Люк Скайуокер</h3>
+            <p>Магистр-джедай, победивший Дарта Вейдера.</p>
+            <button class="like-btn">
+              ❤ Лайк (<span class="like-count">0</span>)
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/vader.jpg"
+            alt="Дарт Вейдер"
+            class="card-img"
+          />
+          <div class="card-body">
+            <h3>Мини-Дарт Вейдер</h3>
+            <p>Опасный коротышка, смотрите под ноги!!!!</p>
+            <button class="like-btn">
+              ❤ Лайк (<span class="like-count">0</span>)
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/yoda.jpg"
+            alt="Магистр Йода"
+            class="card-img"
+          />
+          <div class="card-body">
+            <h3>Мастер Йода</h3>
+            <p>Мудрейший наставник джедаев, живший 900 лет.</p>
+            <button class="like-btn">
+              ❤ Лайк (<span class="like-count">0</span>)
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/obiwan.jpg"
+            alt="Оби-Ван Кеноби"
+            class="card-img"
+          />
+          <div class="card-body">
+            <h3>Оби-Ван Кеноби</h3>
+            <p>Преданный рыцарь, наставник Энакина и Люка.</p>
+            <button class="like-btn">
+              ❤ Лайк (<span class="like-count">0</span>)
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/ahsoka.jpg"
+            alt="Асока Тано"
+            class="card-img"
+          />
+          <div class="card-body">
+            <h3>Асока Тано</h3>
+            <p>Бывший падаван, идущая своим собственным путем.</p>
+            <button class="like-btn">
+              ❤ Лайк (<span class="like-count">0</span>)
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="assets/images/mando.jpg"
+            alt="Мандалорец"
+            class="card-img"
+          />
+          <div class="card-body">
+            <h3>Дин Джарин (Мандо)</h3>
+            <p>Одинокий охотник за головами. Таков путь.</p>
+            <button class="like-btn">
+              ❤ Лайк (<span class="like-count">0</span>)
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>© Илья, студент 1 курса, 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

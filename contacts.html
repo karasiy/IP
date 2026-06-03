@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Связь с Советом Джедаев</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">Star Wars Archive</div>
+      <nav class="navigation">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="gallery.html" class="nav-link">Галерея</a>
+        <a href="contacts.html" class="nav-link active">Контакты</a>
+      </nav>
+    </header>
+
+    <main class="container-main">
+      <section class="form-section">
+        <h1>Отправить запрос на Корусант</h1>
+        <p>
+          Заполните форму ниже, чтобы отправить закодированное сообщение Высшему
+          Совету Ордена.
+        </p>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="username">Ваше Имя / Позывной:</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Например, Скайуокер"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="useremail"
+              >Голографическая почта (Email):
+              <span class="tooltip">Сюда придет ответ от Совета</span>
+            </label>
+            <input
+              type="email"
+              id="useremail"
+              name="useremail"
+              placeholder="rebel@galaxy.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Текст сообщения:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Мне нужна помощь Ордена..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            Отправить через Гиперпространство
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© Илья, студент 1 курса, 2026</p>
+    </footer>
+  </body>
+</html>
